@@ -1,32 +1,9 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+#include<stdio.h>
+int main()
+{
+int x;
+for (x=1; x<10; x+=2)
+	printf("%d\n", x);
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+	return 0;
+}
